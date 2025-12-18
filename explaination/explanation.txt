@@ -1,0 +1,57 @@
+========================================= 
+            🌟 Slide 1: Overview 
+============================================
+*   **Project**: **Ani-Quote** (High-Performance Anime Quote Generator).
+*   **Stack**: **React.js + Vite + TypeScript**.
+*   **Goal**: Demonstrate modern **Component-Based Architecture**.
+*   **Key Feature**: **Real-time API Integration** without page reloads.
+
+---
+
+========================================= 
+        🛠️ Slide 2: The Tech Stack 
+============================================
+*   **React.js**: Builds reusable UI Components (modular code).
+*   **Vite**: Provides Instant Server Start & optimized bundling.
+*   **TypeScript**: Adds Static Typing to prevent runtime bugs.
+*   **CSS Modules**: Uses Scoped Styling to avoid global conflicts.
+
+---
+
+========================================= 
+        ⚙️ Slide 3: Logic Flow 
+============================================
+*   **Trigger**: User clicks "Generate" button.
+*   **Fetch**: App calls external API using **Async/Await**.
+*   **Parse**: Converts raw **JSON string** into a usable Object.
+*   **Update**: **useState** updates the data and triggers a **re-render**.
+
+---
+
+=========================================  
+        🚀 Slide 4: Performance 
+============================================
+*   **Virtual DOM**: Updates only the text node, never reloads the page.
+*   **JSON Data**: Lightweight payload ensures fast load times.
+*   **HMR**: Hot Module Replacement allows instant UI updates.
+
+---
+
+========================================= 
+        🔮 Slide 5: Future Scope 
+============================================
+*   **Dark Mode**: Global theme toggle using **Context API**.
+*   **Filtering**: Search quotes by Anime Title.
+*   **Favorites**: Save best quotes to **LocalStorage**.
+*   **PWA**: Make it installable for Offline use.
+
+---
+
+========================================= 
+        📚 Slide 6: Technical Glossary 
+============================================
+*   **HMR**: Updates code modules in browser without refreshing.
+*   **Bundling**: Compresses multiple files into one to reduce load time.
+*   **Parsing**: The process of converting String → Object.
+*   **useState**: React Hook to manage local data (memory).
+*   **useEffect**: React Hook to handle side effects (like data fetching).
