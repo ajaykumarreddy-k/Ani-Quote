@@ -29,7 +29,7 @@ const App: React.FC = () => {
 
       {/* Main Content - Z-Index 10 */}
       <main className="relative z-10 w-full h-full flex flex-col items-center justify-center p-4">
-        <img src="/Logo.png" alt="Logo" className="w-120 h-64 mb-8" />
+        <img src="/Logo.png" alt="Logo" className="w-98 h-auto mb-8" />
         <QuoteCard 
           quote={quote} 
           loading={loading} 
