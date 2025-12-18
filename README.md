@@ -1,7 +1,7 @@
 # Ani-Quote
 
 <div align="center">
-  <img src="public/Logo.png" alt="Ani-Quote Logo" width="150" height="auto" />
+  <img src="public/Logo.png" alt="Ani-Quote Logo" width="300" height="auto" />
   <br />
   <br />
   <p>
