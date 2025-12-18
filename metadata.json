@@ -1,0 +1,5 @@
+{
+  "name": "AnimeChan Quote Generator",
+  "description": "A premium, cinematic anime quote generator featuring a glassmorphism UI, interactive particle background, and smooth GSAP animations.",
+  "requestFramePermissions": []
+}

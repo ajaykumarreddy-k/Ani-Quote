@@ -1,0 +1,26 @@
+.
+├── App.tsx
+├── components
+│   └── Particles
+│       ├── Particles.css
+│       └── Particles.tsx
+├── features
+│   └── quotes
+│       ├── api
+│       │   └── animechanApi.ts
+│       ├── components
+│       │   └── QuoteCard.tsx
+│       └── hooks
+│           └── useRandomQuote.ts
+├── index.html
+├── index.tsx
+├── NewsflashBB.ttf
+├── package.json
+├── README.md
+├── styles
+│   └── global.css
+├── tsconfig.json
+├── types.ts
+└── vite.config.ts
+
+9 directories, 15 files

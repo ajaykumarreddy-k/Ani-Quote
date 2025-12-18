@@ -1,0 +1,26 @@
+.footer-content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.footer-content h3 {
+  font-family: 'Tunder', sans-serif;
+  margin-right: 8px;
+  font-size: 24px;
+  color: white;
+}
+
+.social-links a {
+  font-family: 'Tunder', sans-serif;
+  margin: 0 8px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 20px;
+}
+
+.social-links a:hover {
+  color: #b026ff;
+}

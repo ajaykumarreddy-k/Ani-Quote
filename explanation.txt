@@ -1,0 +1,23 @@
+The AniQuote project is a web application built with React and Vite, designed to fetch and display anime quotes.
+
+### Core Technologies:
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A modern build tool that provides a fast development experience.
+- **TypeScript**: A statically typed superset of JavaScript that adds type safety to the code.
+
+### Main Components and Their Roles:
+- **App.tsx**: The root component that orchestrates the application.
+- **index.html & index.tsx**: The entry points for the web application, responsible for rendering the React app into the browser's DOM.
+- **package.json**: Manages project dependencies (like React, Vite, etc.) and defines scripts for running and building the application.
+- **vite.config.ts**: Configures the Vite build tool, including plugins and server options.
+- **styles/global.css**: Contains global styling rules that apply to the entire application.
+
+### Core Functionality: `features/quotes/`
+This module encapsulates all functionalities related to fetching and displaying anime quotes.
+
+#### Data Flow:
+1.  **`hooks/useRandomQuote.ts`**: This custom React hook is the brain of the quote-fetching logic. It manages the state of the quote (e.g., loading, error, data) and calls the API to get a new quote.
+2.  **`api/animechanApi.ts`**: This file is responsible for making the actual API request to an external service (Animechan) to retrieve a random anime quote. It also includes fallback quotes in case the API fails.
+3.  **`components/QuoteCard.tsx`**: This is a presentational React component that takes the fetched quote data as props and displays it in a structured and styled format.
+
+In summary, the `useRandomQuote` hook initiates the process, calls the `animechanApi` to fetch data, and then passes that data to the `QuoteCard` component to be rendered on the screen.
